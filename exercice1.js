@@ -46,7 +46,9 @@ div2.style.width = 100+"px";
 div2.style.height = 100+"px";
 div2.style.border = "1px solid black";
 
-div2.addEventListener("mouseover", () => div2.style.backgroundColor = "red");
+div2.addEventListener("mouseover", function (){
+    div2.style.backgroundColor = "red";
+});
 
 let txt = "une longue phrase", longueur = txt.length;
 alert(longueur);
